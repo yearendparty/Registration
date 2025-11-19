@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" style="
-    height: 100%;
-    width: 100%;
-">
+<html lang="en" style="height: 100%; width: 100%;">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ericsson Year End Party</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ericsson R&D Gurgaon | Year End Employee Celebration 2025</title>
     <style>
-        // Hilda Font
+        /* Hilda Font */
         @font-face {
           font-family: "Ericsson Hilda";
           src: url("hilda/ericsson-hilda-light.eot");
@@ -57,7 +54,8 @@
           font-weight: 700;
           font-style: normal;
         }
-        // Ericsson Hilda Mono Font
+
+        /* Ericsson Hilda Mono Font */
         @font-face {
           font-family: "Ericsson Hilda Mono";
           src: url("hilda/ericsson-hilda-mono-light.eot");
@@ -82,7 +80,7 @@
         }
         @font-face {
           font-family: "Ericsson Hilda Mono";
-          src: url("hilda/ericsson-hilda-mono-light.eot");
+          src: url("hilda/ericsson-hilda-mono-medium.eot");
           src: local("Ericsson Hilda Mono Medium"), local("ericsson-hilda-mono-medium"),
            url("hilda/ericsson-hilda-mono-medium.eot?#iefix") format("embedded-opentype"),
            url("hilda/ericsson-hilda-mono-medium.woff2") format("woff2"),
@@ -102,30 +100,38 @@
           font-weight: 700;
           font-style: normal;
         }
+
         body {
+            display: flex;
             flex-direction: column;
             font-size: 14px;
-               color: #242424;
-               font-family: "Ericsson Hilda", Helvetica, Arial, sans-serif;
-              text-rendering: optimizeLegibility;
-              -webkit-font-smoothing: antialiased;
-              -moz-osx-font-smoothing: grayscale;
+            color: #242424;
+            font-family: "Ericsson Hilda", Helvetica, Arial, sans-serif;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin: 0;
+            min-height: 100vh;
+        }
 
-        }
-        .form-container {
-            margin: 5%;
-            margin-bottom: 10%;
-            margin-top: 0;
-        }
-        h3 {
-            font-size: 25px;
-            color: #333;
-            letter-spacing: 1.5px;
-            font-weight: bold;
-        }
-        header {
+        .top-banner {
+            margin: 6% 5% 2% 5%;
             text-align: center;
         }
+
+        h1.main-title {
+            font-size: 26px;
+            color: #333;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+            margin: 0.5rem 0 1.5rem 0;
+        }
+
+        .form-container {
+            margin: 0 5% 10% 5%;
+            text-align: center;
+        }
+
         input[type="text"] {
             width: 70%;
             padding: 12px;
@@ -135,6 +141,7 @@
             font-size: 20px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         button {
             width: 55%;
             padding: 12px;
@@ -144,13 +151,17 @@
             margin-top: 5%;
             color: white;
             font-size: 18px;
+            cursor: pointer;
         }
+
         .container span {
             width: 50%;
             text-align: right;
             padding-right: 10px;
             box-sizing: border-box;
-            font-size: 20px
+            font-size: 20px;
+            display: inline-block;
+            vertical-align: middle;
         }
 
         .container input {
@@ -158,61 +169,83 @@
             padding: 5px;
             box-sizing: border-box;
             margin-top: 10%;
+            vertical-align: middle;
         }
-        .error-message {
-        color: red;
-        font-size: 20px;
-            margin-top: 5%;
-      }
 
+        .error-message {
+            color: red;
+            font-size: 20px;
+            margin-top: 5%;
+        }
+
+        #pleaseWaitMessage h3 {
+            margin: 0;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            input[type="text"], .container input {
+                width: 90%;
+            }
+            button {
+                width: 80%;
+            }
+        }
     </style>
 </head>
 <body>
-    <div style=" margin: 0; margin: 10% 5% 10% 5%; text-align: center;">
-        <img src="app banner 1.png" width="85%">
+    <div class="top-banner">
+        <img src="ericsson-logo.png" alt="Ericsson Logo" style="max-width: 260px; width: 40%; height: auto;">
     </div>
-    <div class="form-container" >
-    <div class="header" style = "text-align: center";>
-      <h3>R&D GURGAON <br>Year End Party</h3>
-   <div>
-  <div style="justify-content: center;" class = "container">
-            <form id="infoForm" method="POST" action="https://script.google.com/macros/s/AKfycbzmKOUNptTaAauVYtiVHDl4pZ437_Bs5TIYImuQpdaLt-7t7TJYkuaxlpsp_ZJt8wQi/exec">
+
+    <div class="form-container">
+        <header>
+            <h1 class="main-title">Ericsson R&D Gurgaon || Year End Employee Celebration 2025</h1>
+        </header>
+
+        <div class="container" style="justify-content:center;">
+            <form id="infoForm" method="POST"
+                  action="https://script.google.com/macros/s/AKfycbzmKOUNptTaAauVYtiVHDl4pZ437_Bs5TIYImuQpdaLt-7t7TJYkuaxlpsp_ZJt8wQi/exec">
                 <span>SIGNUM</span>
-                <input type="text" placeholder="EABCDEF" required name="SIGNUM" id="signumInput">
+                <input type="text" placeholder="EABCDEF" required name="SIGNUM" id="signumInput" aria-label="SIGNUM">
+                <br/>
                 <button type="submit">Submit</button>
             </form>
-            <div id="pleaseWaitMessage" style="display:none; margin-bottom: 15%; color: #333;">
+
+            <div id="pleaseWaitMessage" style="display:none; margin-top: 1.5rem; color: #333;">
                 <h3>Please wait...</h3>
             </div>
-            <div class="error-message" id="errorMessage"></div>
+
+            <div class="error-message" id="errorMessage" role="status" aria-live="polite"></div>
         </div>
     </div>
 
     <script>
         function validateInput() {
-        const input = document.getElementById('signumInput').value;
-        const errorMessage = document.getElementById('errorMessage');
-        const pattern1 = /^[eE][a-zA-Z]{6}$/; // 5-digit number
+            const input = document.getElementById('signumInput').value.trim();
+            const errorMessage = document.getElementById('errorMessage');
+            const pattern1 = /^[eE][a-zA-Z]{6}$/; // expects 'E' or 'e' followed by 6 letters, e.g. EABCDEF
 
-        if (pattern1.test(input)) {
-          errorMessage.textContent = '';
-          return true; // Input is valid
-        } else {
-          errorMessage.textContent = 'Please enter Correct SIGNUM.';
-          return false; // Input is invalid
+            if (pattern1.test(input)) {
+                errorMessage.textContent = '';
+                return true; // Input is valid
+            } else {
+                errorMessage.textContent = 'Please enter correct SIGNUM (e.g. EABCDEF).';
+                return false; // Input is invalid
+            }
         }
-      }
 
-      document.getElementById('infoForm').addEventListener('submit', function(event) {
-        if (!validateInput()) {
-          event.preventDefault(); 
-        } else {
-          showPleaseWait(); 
+        document.getElementById('infoForm').addEventListener('submit', function(event) {
+            if (!validateInput()) {
+                event.preventDefault();
+            } else {
+                showPleaseWait();
+            }
+        });
+
+        function showPleaseWait() {
+            document.getElementById("pleaseWaitMessage").style.display = "block";
         }
-      });
-      function showPleaseWait() {
-        document.getElementById("pleaseWaitMessage").style.display = "block";
-      }
     </script>
 </body>
 </html>
